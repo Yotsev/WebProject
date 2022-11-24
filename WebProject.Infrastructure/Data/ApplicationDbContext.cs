@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using WebProject.Infrastructure.Data.Common;
 using WebProject.Infrastructure.Data.Identity;
 using WebProject.Infrastructure.Data.TvSeries;
 

@@ -4,16 +4,17 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebProject.Infrastructure.Data.TvSeries;
 
-namespace WebProject.Infrastructure.Data.TvSeries
+namespace WebProject.Infrastructure.Data.Common
 {
     public class Director
     {
         public Director()
         {
-            this.Series = new List<Series>();
+            Series = new List<Series>();
         }
-        
+
         [Key]
         public Guid Id { get; set; }
 
