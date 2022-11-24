@@ -20,6 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Data\Game\" />
+    <Folder Include="Data\Movie\" />
     <Folder Include="Migrations\" />
   </ItemGroup>
 
